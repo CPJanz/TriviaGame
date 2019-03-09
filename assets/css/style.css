@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Russo One', sans-serif;
+}
+
+.question-answer,
+.custom-button {
+    border: black 2px solid;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    vertical-align: center;
+}
+
+#question-card-question-row {
+    border-bottom: 1px black solid;
+}
+
+#title-column,
+#score-column,
+#question-card {
+    border: 1px black solid;
+    border-left: 2px black solid;
+    border-right: 2px black solid;
+    text-align: center;
+}
+
+#question-card {
+    background: #dcd2c7;
+}
+
+#title-column {
+    border-radius: 5px 5px 0 0;
+    border-top: 2px black solid;
+    background: #8a685f;
+}
+
+#score-column {
+    border-radius: 0 0 5px 5px;
+    border-bottom: 2px black solid;
+    background: #8a685f;
+}
+
+.correct {
+    background-color: lightgreen;
+    border-color: green;
+    color: green;
+}
+
+.correct-text {
+    color: green;
+}
+
+.incorrect {
+    background-color: pink;
+    border-color: red;
+    color: red;
+}
+
+.incorrect-text {
+    color: red;
+}
+
+#side-column {
+    margin: auto;
+}
+
+h2 {
+    margin: auto;
+}
+
+img {
+    margin: auto;
+    padding-top: 15px;
+}
